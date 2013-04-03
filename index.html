@@ -4,17 +4,47 @@
     <title>
       Test Page
     </title>
+    <meta charset='utf-8'>
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/my_stylesheet.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
   </head>
   <body>
-    <h5>Navbar</h5>
-    <p>[TBD]</p>
-    <h1>Matt Cano</h1>
-    <img src = "http://photos2.meetupstatic.com/photos/member/3/8/2/7/member_11294375.jpeg" />
-    <p>My name is Matt Cano and I am in the <a href="generalassemb.ly">GA</a> <a href="https://generalassemb.ly/education/web-development-immersive/san-francisco">Web Development Immersive</a> program</p>
-    <p>For more info, check out some of my social network pages:</p>
-    <p>
-    <a href="https://twitter.com/mattcano" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @mattcano</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </p>
+    <div class="container">
+
+      <h1>Matt Cano</h1>
+
+      <div class="row">
+        <div class="span4">
+          <img src = "images/halloween.jpeg" />
+        </div>
+
+        <div class="span8 body_text">
+          <p>Sleep deprived, but doing my best not to let that slow me down. I am in the <a href="generalassemb.ly">GA</a> Web Development Immersive (<a href="https://generalassemb.ly/education/web-development-immersive/san-francisco">WDI</a>) program. 
+          </p>
+          <p>Prior Experience:</p>
+          <ul>
+            <li>Corporate Development, M&A (Electronic Arts)
+            <li>Tech Investment Banking (UBS)
+            <li>Micro-finance (Accion Emprendedora, Santiago, Chile)
+          </ul>
+          <p>I will be joining the Stanford GSB MBA program later this fall.</p>
+          <a class="btn btn-primary" href="http://github.com/mattcano">Visit my Github</a>
+        </div>
+      </div>
+        
+      <div class="row">
+        <div class="span9">
+          <p>
+            <small>For more info, check out some of my social network pages:</small>
+          </p>
+          <p>
+            <a href="http://www.facebook.com/cano.matt"><img src="images/button_facebook.png" alt="Link to Matt Cano's Facebook" /></a>
+            <a href="http://twitter.com/mattcano"><img src="images/button_twitter.png" alt="Link to Matt Cano's Twitter"/></a>
+          </p>
+        </div>
+      </div>
+
+    </div>
   </body>
 </html>
