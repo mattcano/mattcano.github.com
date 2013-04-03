@@ -1,34 +1,24 @@
-  body{
-    /*font-family: 'Sanchez', serif;*/
-  }
-
-  .btn {
-    text-align: center;
-  }
-
   h1 {
     text-align: center;
     font-family: 'Sanchez', serif;
-
-    /*background-color: #b00;
-    display: inline;
-    border: solid;
-    padding: 5px;*/
-
-  }
-
-  h4 {
-/*    position: fixed;
-    background-color: red;
-    top: 0;
-    left: 0;
-    right: 0;*/
   }
 
   p {
-    /*position: relative;
-    top: 0;
-    left: 10px;
-    margin: 0px 50px 0px 0px;
-    font-size: 22px;*/
+    font-family: 'Sanchez', serif;
+  }
+
+  li {
+    font-family: 'Sanchez', serif;
+  }
+
+  .my_footer{
+    text-align: center;
+  }
+
+  .left_pic{
+    margin-left: 70px;
+  }
+
+  .my_header{
+    margin-bottom: 20px;
   }
