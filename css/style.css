@@ -13,3 +13,9 @@ img#jumbo-image {
   position: absolute;
   top: 100px;
   left: 30%; }
+
+.brand {
+  width: 40px; }
+
+#navUl {
+  margin-top: 5px; }

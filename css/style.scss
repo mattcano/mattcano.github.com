@@ -3,6 +3,7 @@ $darkgrey: #505050;
 $blue: #00538C;
 $lightblue: #CAE1FC;
 $lightgrey: #97989B;
+$brown: #766053;
 
 body {
   padding-top: 0px;
@@ -22,4 +23,12 @@ img#jumbo-image {
   position: absolute;
   top: 100px;
   left: 30%;
+}
+
+.brand {
+  width: 40px;
+}
+
+#navUl {
+  margin-top: 5px;
 }
