@@ -1,3 +1,18 @@
+scrollToAnchor = (aid) ->
+  aTag = $("a[name='" + aid + "']")
+  $("html,body").animate
+    scrollTop: aTag.offset().top
+  , "slow"
+
+$(".myname").click ->
+  scrollToAnchor "MattCano"
+
+$(".about").click ->
+  scrollToAnchor "me"
+
+$(".projects").click ->
+  scrollToAnchor "myprojects"
+
 $('.tooltipclass').tooltip()
 $('.tooltipclass').attr('data-toggle', 'tooltip')
 

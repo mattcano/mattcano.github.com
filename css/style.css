@@ -8,12 +8,6 @@ img#jumbo-image {
   width: 100%;
   z-index: 100; }
 
-#jumbotron .container {
-  z-index: 1;
-  position: absolute;
-  top: 100px;
-  left: 30%; }
-
 #myname {
   color: white; }
 
@@ -23,5 +17,36 @@ img#jumbo-image {
 #navUl {
   margin-top: 11px; }
 
+#jumbotron {
+  padding-top: 10px;
+  position: relative; }
+  #jumbotron .container {
+    z-index: 1;
+    position: absolute;
+    top: 15%; }
+
+#top-footer {
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 20%; }
+
+.hero-unit {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .hero-unit img {
+    width: 36px;
+    margin-left: 35px; }
+
 .tooltip-inner {
   white-space: pre-wrap; }
+
+#sectAboutMe {
+  margin-top: 100px;
+  margin-bottom: 50px; }
+
+#photoAboutMe {
+  border-radius: 70px; }
