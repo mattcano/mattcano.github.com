@@ -1,6 +1,7 @@
 $black: black;
 $darkgrey: #505050;
 $blue: #00538C;
+$buttonblue: #006dcc;
 $lightblue: #CAE1FC;
 $lightgrey: #97989B;
 $brown: #766053;
@@ -25,10 +26,18 @@ img#jumbo-image {
   left: 30%;
 }
 
+#myname{
+  color: white;
+}
+
 .brand {
   width: 40px;
 }
 
 #navUl {
-  margin-top: 5px;
+  margin-top: 11px;
+}
+
+.tooltip-inner {
+    white-space:pre-wrap;
 }

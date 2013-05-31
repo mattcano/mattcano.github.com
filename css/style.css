@@ -14,8 +14,14 @@ img#jumbo-image {
   top: 100px;
   left: 30%; }
 
+#myname {
+  color: white; }
+
 .brand {
   width: 40px; }
 
 #navUl {
-  margin-top: 5px; }
+  margin-top: 11px; }
+
+.tooltip-inner {
+  white-space: pre-wrap; }
