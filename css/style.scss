@@ -5,10 +5,13 @@ $buttonblue: #006dcc;
 $lightblue: #CAE1FC;
 $lightgrey: #97989B;
 $brown: #766053;
-$sectionBorder: 100px;
+$sectionBorder: 150px;
+$shadow: rgba(0, 0, 0, 0.2);
 
 body {
   padding-top: 0px;
+  background-color: transparent;
+  background-image: url('../images/canvas.png');
 }
 
 .navbar-inner {
@@ -18,6 +21,7 @@ body {
 img#jumbo-image {
   width: 100%;
   z-index: 100;
+  box-shadow: 0px 10px 5px 6px $shadow;
 }
 
 #myname{
@@ -34,24 +38,25 @@ img#jumbo-image {
 
 
 #jumbotron {
-  padding-top: 10px;
+  margin-top: 30px;
+  padding-top: 10%;
+  padding-bottom: 10%;
   position: relative;
+  background-image: url('../images/main.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
   .container{
-    z-index: 1;
-    position: absolute;
-    top: 15%;
+
   }
 }
 
 #top-footer{
   text-align: center;
   color: white;
-  position: absolute;
-  bottom: 20%;
 }
 
 .hero-unit {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: $shadow;
   color: lighten($lightgrey, 100%);
   border-radius: 70px;
   padding-top: 30px;
@@ -73,4 +78,5 @@ img#jumbo-image {
 
 #photoAboutMe {
   border-radius: 70px;
+  box-shadow: 3px 3px 5px 6px $shadow;
 }
