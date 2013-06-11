@@ -1,4 +1,5 @@
-$black: black;
+$black: #1b1b1b;
+$cardinal: #990000;
 $darkgrey: #505050;
 $blue: #00538C;
 $buttonblue: #006dcc;
@@ -29,7 +30,14 @@ img#jumbo-image {
 }
 
 .brand {
-  width: 40px;
+  width: 30px;
+  padding: 0px 0px 0px 0px;
+  #logo{
+    width: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 2px 2px 2px 2px;
+  }
 }
 
 #navUl {
@@ -78,5 +86,28 @@ img#jumbo-image {
 
 #photoAboutMe {
   border-radius: 70px;
-  box-shadow: 3px 3px 5px 6px $shadow;
+  box-shadow: 0px 0px 5px 6px $shadow;
+  margin-top: 10%;
+}
+
+.thumbnail img {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.project-thumbnails .thumbnail {
+  min-height: 525px;
+  padding-bottom: 20px;
+  position: relative;
+  .lead {
+    min-height: 60px;
+  }
+  .caption-footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    width: 90%;
+  }
 }

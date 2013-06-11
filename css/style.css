@@ -4,7 +4,7 @@ body {
   background-image: url("../images/canvas.png"); }
 
 .navbar-inner {
-  background-color: black; }
+  background-color: #1b1b1b; }
 
 img#jumbo-image {
   width: 100%;
@@ -15,7 +15,13 @@ img#jumbo-image {
   color: white; }
 
 .brand {
-  width: 40px; }
+  width: 30px;
+  padding: 0px 0px 0px 0px; }
+  .brand #logo {
+    width: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 2px 2px 2px 2px; }
 
 #navUl {
   margin-top: 11px; }
@@ -52,4 +58,23 @@ img#jumbo-image {
 
 #photoAboutMe {
   border-radius: 70px;
-  box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 0px 5px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 10%; }
+
+.thumbnail img {
+  display: block;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto; }
+
+.project-thumbnails .thumbnail {
+  min-height: 525px;
+  padding-bottom: 20px;
+  position: relative; }
+  .project-thumbnails .thumbnail .lead {
+    min-height: 60px; }
+  .project-thumbnails .thumbnail .caption-footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    width: 90%; }
