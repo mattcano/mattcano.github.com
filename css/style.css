@@ -82,7 +82,7 @@ img#jumbo-image {
 .modal-body .modal-btn {
   width: 100%;
   margin-bottom: 10px; }
-.modal-body embed {
+.modal-body embed, .modal-body img {
   margin-bottom: 10px; }
 .modal-body #icon-letters {
   margin-left: auto; }
