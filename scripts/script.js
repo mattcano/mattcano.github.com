@@ -45,6 +45,20 @@
   a bit less painful and more like coding Ruby, which is great because my only \
   problem with Ruby is that my browser can\'t read it.');
 
+  $('.d3-btn').html('D3');
+
+  $('.d3-btn').attr('data-original-title', 'D3 (or Data Driven Documents) is a powerful\
+  framework for expressive data visualization.  The framework is built on the belief that\
+  data visualization should be interactive and dynamic.  The D3.js library makes this\
+  possible on the web.');
+
+  $('.illustrator-btn').html('Adobe Illustrator');
+
+  $('.illustrator-btn').attr('data-original-title', 'Adobe Illustrator is a popular\
+  vector graphics editor, commonly used to create scalable logos and icons\
+  saved as .svg files.  Modern HTML5 browsers have native suppport for .svg files,\
+  so I think basic knowlege of Illustrator will important.');
+
   $('.jquery-btn').html('jQuery');
 
   $('.jquery-btn').attr('data-original-title', 'jQuery allows me to create animations\

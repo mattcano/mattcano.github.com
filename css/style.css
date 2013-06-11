@@ -78,3 +78,15 @@ img#jumbo-image {
     bottom: 0;
     margin-bottom: 15px;
     width: 90%; }
+
+.modal-body .modal-btn {
+  width: 100%;
+  margin-bottom: 10px; }
+.modal-body embed {
+  margin-bottom: 10px; }
+.modal-body #icon-letters {
+  margin-left: auto; }
+  .modal-body #icon-letters img {
+    width: 100px; }
+  .modal-body #icon-letters li:first-child {
+    margin-left: 0px; }
